@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: 1858895_report.aux
+The style file: named-wits.bst
+Database file #1: references.bib
+Warning--there's a url but no retrieval date in AGARWAL2018738
+Warning--empty booktitle in RasheedAutomatedNP
+Warning--empty year in RasheedAutomatedNP
+You've used 4 entries,
+            2541 wiz_defined-function locations,
+            601 strings with 5698 characters,
+and the built_in function-call counts, 1694 in all, are:
+= -- 154
+> -- 87
+< -- 1
++ -- 30
+- -- 30
+* -- 133
+:= -- 274
+add.period$ -- 11
+call.type$ -- 4
+change.case$ -- 30
+chr.to.int$ -- 4
+cite$ -- 7
+duplicate$ -- 63
+empty$ -- 134
+format.name$ -- 34
+if$ -- 352
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 3
+newline$ -- 26
+num.names$ -- 12
+pop$ -- 41
+preamble$ -- 1
+purify$ -- 35
+quote$ -- 0
+skip$ -- 49
+stack$ -- 0
+substring$ -- 53
+swap$ -- 15
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 32
+warning$ -- 3
+while$ -- 11
+width$ -- 6
+write$ -- 57
+(There were 3 warnings)

@@ -1,0 +1,35 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{Agarwal \bgroup \em et al.\egroup
+  }{2018}]{AGARWAL2018738}
+Parul Agarwal, Kritika Chopra, Mohd Kashif, and Vinita Kumari.
+\newblock Implementing alpr for detection of traffic violations: a step towards
+  sustainability.
+\newblock {\em Procedia Computer Science}, 132:738--743, 2018.
+\newblock International Conference on Computational Intelligence and Data
+  Science.
+
+
+\bibitem[\protect\citeauthoryear{Arulmozhi \bgroup \em et al.\egroup
+  }{2012}]{6510317}
+K~Arulmozhi, S~Arumuga Perumal, M~Vishnu Mohan, and Krishan Nallaperumal.
+\newblock Skew detection and correction of indian vehicle license plate using
+  polar hough transform research.
+\newblock In {\em 2012 IEEE International Conference on Computational
+  Intelligence and Computing Research}, pages 1--4, 2012.
+
+
+\bibitem[\protect\citeauthoryear{Rasheed \bgroup \em et al.\egroup
+  }{}]{RasheedAutomatedNP}
+Saqib Rasheed, A.~Naeem, and O.~Ishaq.
+\newblock Automated number plate recognition using hough lines and template
+  matching.
+
+
+\bibitem[\protect\citeauthoryear{Redmon \bgroup \em et al.\egroup
+  }{2016}]{redmon2016look}
+Joseph Redmon, Santosh Divvala, Ross Girshick, and Ali Farhadi.
+\newblock {\em You Only Look Once: Unified, Real-Time Object Detection}, 2016.
+
+
+\end{thebibliography}

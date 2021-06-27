@@ -1,0 +1,80 @@
+* [1. Pre-Processing](#chapter2)
+    * [Data Preparation](#section_2_1)
+    * [Image Filtering and Detection Pre-Processing](#section_2_2)
+    * [Poor Illumination](#section_2_3)
+    * [Environmental Handling: Rain and Fog](#section_2_3)
+* [2. License Plate Localization](#chapter3)
+* [3. Optimal Character Recognition](#chapter4)
+* [4. Conclusion](#chapter5)
+
+
+<a id="chapter2" name="chapter2">Chapter 2</a> 
+<a id="section_2_2" name="section_2_2">Section 2.2</a>
+
+
+
+    
+"""
+Input:
+minRect: The minimum rectangle found from the contour
+--------------------
+"""
+def check_orientation(rect,verbose=False):
+    (x,y),(width,height),angle = rect
+    boolean = False
+    if verbose:
+        print("1) Coordinates (X,Y): ({},{})".format(x,y))
+        print("2) Dimensions (Width,Height): ({},{})".format(width,height))
+        print("3) Angle : {}".format(angle))
+    if width > height: #CV2 returns a negative angle
+        angle =- angle
+    else:
+        angle = 90 + angle 
+    if height == 0  or width == 0:
+        boolean = False
+    area = width * height
+    if verbose:
+        print("4) Area: {}".format(area))
+    if not check_ratio(area,width,height,verbose):
+        boolean = False
+    else:
+        boolean = True
+    return boolean
+    
+    
+def get_blackhat(gray,kernel_width=13,kernel_height=5,kernel=None): # Reveal Dark Regions (Letter,Digits,Symbols) on Light Backgrounds
+    if kernel == None:
+        kernel = cv2.getStructuringElement(cv2.MORPH_RECT,(kernel_width,kernel_height))
+    blackhat = cv2.morphologyEx(gray.copy(),cv2.MORPH_BLACKHAT,rect_kernel)
+    return blackhat,kernel
+
+
+def get_closing(gray,kernel_width=3,kernel_height=3,kernel=None): # Fill Small Holes and Identify Larger Structures: Reveal Light Characters
+    if kernel == None:
+        kernel = cv2.getStructuringElement(cv2.MORPH_RECT,(kernel_width,kernel_height))
+    closing = cv2.morphologyEx(gray.copy(),cv2.MORPH_CLOSE,kernel)
+    return closing,kernel
+    
+
+def sobel_gradient(blackhat):
+    grad_x = cv2.Sobel(blackhat,ddepth=cv2.CV_32F,dx=1,dy=0,ksize=-1)
+    grad_x = np.absolute(grad_x)
+    (min_val,max_val) = (np.min(grad_x),np.max(grad_x))
+    grad_x = 255 * ((grad_x - min_val) / (max_val - min_val)) #rescale 
+    grad_x = grad_x.astype('uint8')
+    return grad_x
+    
+def morphological_preprocessing(gray,square_kernel_width=3,square_kernel_height=3,blackhat_kernel_width=13,blackhat_kernel_height=5,gaussian_blur=5):
+    light,light_kernel = get_closing(gray,square_kernel_width,square_kernel_height)
+    blackhat,blackhat_kernel = get_blackhat(gray,kernel_width=blackhat_kernel_width,kernel_height=blackhat_kernel_height)
+    threshold = cv2.threshold(light,0,255,cv2.THRESH_BINARY | cv2.THRESH_OTSU)[1]
+    grad_x = sobel_gradient(blackhat)
+    smooth_grad_x = cv2.GaussianBlur(grad_x,(gaussian_blur,gaussian_blur),0)
+    smooth_grad_x = cv2.morphologyEx(smooth_grad_x,cv2.MORPH_CLOSE,blackhat_kernel)
+    smooth_thresh = cv2.threshold(smooth_grad_x, 0,255,cv2.THRESH_BINARY | cv2.THRESH_OTSU)[1]
+    morphological_thresh = cv2.erode(smooth_thresh,None,iterations=2)
+    morphological_thresh = cv2.dilate(morphological_thresh,None,iterations=2)
+    light_threshold = cv2.bitwise_and(morphological_thresh,morphological_thresh,mask=light)
+    light_threshold = cv2.dilate(light_threshold,None,iterations=2)
+    light_threshold = cv2.erode(light_threshold,None,iterations=1)
+    return light_threshold.copy()

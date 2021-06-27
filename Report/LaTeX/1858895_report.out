@@ -1,0 +1,20 @@
+\BOOKMARK [0][]{Doc-Start}{Preface}{}% 1
+\BOOKMARK [1][]{section*.1}{Abstract}{Doc-Start}% 2
+\BOOKMARK [1][]{section*.2}{Table of Contents}{Doc-Start}% 3
+\BOOKMARK [0][]{chapter.1}{Introduction}{}% 4
+\BOOKMARK [0][]{chapter.2}{Related Work}{}% 5
+\BOOKMARK [0][]{chapter.3}{Methodolgy}{}% 6
+\BOOKMARK [1][]{section.3.1}{Pre-Processing}{chapter.3}% 7
+\BOOKMARK [2][]{subsection.3.1.1}{Image Processing}{section.3.1}% 8
+\BOOKMARK [2][]{subsection.3.1.2}{Environemnt Handling}{section.3.1}% 9
+\BOOKMARK [2][]{subsection.3.1.3}{Normalization}{section.3.1}% 10
+\BOOKMARK [1][]{section.3.2}{Number Plate Localization}{chapter.3}% 11
+\BOOKMARK [2][]{subsection.3.2.1}{Morphology}{section.3.2}% 12
+\BOOKMARK [2][]{subsection.3.2.2}{Edge Detection}{section.3.2}% 13
+\BOOKMARK [2][]{subsection.3.2.3}{Plate Orientation and Sizing}{section.3.2}% 14
+\BOOKMARK [2][]{subsection.3.2.4}{Contours}{section.3.2}% 15
+\BOOKMARK [2][]{subsection.3.2.5}{Optimal Character Recognition}{section.3.2}% 16
+\BOOKMARK [0][]{chapter.4}{Limitations}{}% 17
+\BOOKMARK [1][]{section.4.1}{Automatic License Plate Recognition}{chapter.4}% 18
+\BOOKMARK [0][]{chapter.5}{Conclusion}{}% 19
+\BOOKMARK [0][]{chapter*.6}{References}{}% 20
