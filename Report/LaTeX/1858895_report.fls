@@ -1,10 +1,10 @@
-PWD /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX
+PWD /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX/1858895_report.tex
-OUTPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX/1858895_report.log
+INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/1858895_report.tex
+OUTPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/1858895_report.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
@@ -105,15 +105,15 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/cleveref/cleveref.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/cleveref/cleveref.sty
-INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX/natbib.sty
-INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX/natbib.sty
-INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX/natbib-add.tex
-INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX/natbib-add.tex
+INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/natbib.sty
+INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/natbib.sty
+INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/natbib-add.tex
+INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/natbib-add.tex
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
-INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX/1858895_report.aux
-INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX/1858895_report.aux
-OUTPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX/1858895_report.aux
+INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/1858895_report.aux
+INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/1858895_report.aux
+OUTPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/1858895_report.aux
 INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1bch.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1bch.fd
 INPUT /usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map
@@ -134,22 +134,22 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
-INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX/1858895_report.out
-INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX/1858895_report.out
-INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX/1858895_report.out
-INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX/1858895_report.out
-OUTPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX/1858895_report.pdf
-INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX/1858895_report.out
-INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX/1858895_report.out
-OUTPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX/1858895_report.out
+INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/1858895_report.out
+INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/1858895_report.out
+INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/1858895_report.out
+INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/1858895_report.out
+OUTPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/1858895_report.pdf
+INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/1858895_report.out
+INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/1858895_report.out
+OUTPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/1858895_report.out
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/bitstrea/charter/bchr7t.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/bitstrea/charter/bchb7t.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/bitstrea/charter/bchbc7t.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/bitstrea/charter/bchb7t.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/bitstrea/charter/bchb7t.tfm
-INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX/images/wits.jpg
-INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX/images/wits.jpg
-INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX/images/wits.jpg
+INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/images/wits.jpg
+INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/images/wits.jpg
+INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/images/wits.jpg
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/bitstrea/charter/bchr7t.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/bitstrea/charter/bchbc7t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/bitstrea/charter/bchb8r.tfm
@@ -169,8 +169,8 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/bitstrea/charter/bchr8r.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/bitstrea/charter/bchr8c.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/bitstrea/charter/bchr7t.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/bitstrea/charter/bchb7t.tfm
-INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX/1858895_report.toc
-INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX/1858895_report.toc
+INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/1858895_report.toc
+INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/1858895_report.toc
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -183,32 +183,35 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
-OUTPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX/1858895_report.toc
+OUTPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/1858895_report.toc
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/bitstrea/charter/bchb7t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/bitstrea/charter/bchb8r.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/bitstrea/charter/bchb7t.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/bitstrea/charter/bchri7t.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/bitstrea/charter/bchri7t.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/bitstrea/charter/bchri8r.tfm
-INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX/images/Methodology.png
-INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX/images/Methodology.png
-INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX/images/Methodology.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/bitstrea/charter/bchr7t.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/bitstrea/charter/bchb7t.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/bitstrea/charter/bchr7t.tfm
-INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX/images/Non-maximum Suppression.png
-INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX/images/Non-maximum Suppression.png
-INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX/images/Non-maximum Suppression.png
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/bitstrea/charter/bchri7t.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/bitstrea/charter/bchb7t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/bitstrea/charter/bchb7t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/bitstrea/charter/bchb8r.tfm
-INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX/images/result.png
-INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX/images/result.png
-INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX/images/result.png
-INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX/1858895_report.bbl
-INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX/1858895_report.bbl
-INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX/1858895_report.aux
-INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX/1858895_report.out
-INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX/1858895_report.out
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/bitstrea/charter/bchri7t.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/bitstrea/charter/bchri8r.tfm
+INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/images/Methodology.png
+INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/images/Methodology.png
+INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/images/Methodology.png
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/bitstrea/charter/bchr7t.tfm
+INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/images/Non-maximum Suppression.png
+INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/images/Non-maximum Suppression.png
+INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/images/Non-maximum Suppression.png
+INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/images/result.png
+INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/images/result.png
+INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/images/result.png
+INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/images/Reflective surface.png
+INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/images/Reflective surface.png
+INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/images/Reflective surface.png
+INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/1858895_report.bbl
+INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/1858895_report.bbl
+INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/1858895_report.aux
+INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/1858895_report.out
+INPUT /home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/1858895_report.out
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb

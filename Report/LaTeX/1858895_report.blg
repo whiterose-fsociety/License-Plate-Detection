@@ -6,45 +6,45 @@ Database file #1: references.bib
 Warning--there's a url but no retrieval date in AGARWAL2018738
 Warning--empty booktitle in RasheedAutomatedNP
 Warning--empty year in RasheedAutomatedNP
-You've used 4 entries,
+You've used 5 entries,
             2541 wiz_defined-function locations,
-            601 strings with 5698 characters,
-and the built_in function-call counts, 1694 in all, are:
-= -- 154
-> -- 87
+            608 strings with 5977 characters,
+and the built_in function-call counts, 2096 in all, are:
+= -- 192
+> -- 110
 < -- 1
-+ -- 30
-- -- 30
-* -- 133
-:= -- 274
-add.period$ -- 11
-call.type$ -- 4
-change.case$ -- 30
-chr.to.int$ -- 4
-cite$ -- 7
-duplicate$ -- 63
-empty$ -- 134
-format.name$ -- 34
-if$ -- 352
++ -- 38
+- -- 38
+* -- 164
+:= -- 340
+add.period$ -- 14
+call.type$ -- 5
+change.case$ -- 38
+chr.to.int$ -- 5
+cite$ -- 8
+duplicate$ -- 80
+empty$ -- 166
+format.name$ -- 43
+if$ -- 436
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 3
-newline$ -- 26
-num.names$ -- 12
-pop$ -- 41
+missing$ -- 4
+newline$ -- 32
+num.names$ -- 15
+pop$ -- 52
 preamble$ -- 1
-purify$ -- 35
+purify$ -- 44
 quote$ -- 0
-skip$ -- 49
+skip$ -- 58
 stack$ -- 0
-substring$ -- 53
-swap$ -- 15
+substring$ -- 58
+swap$ -- 17
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 32
+type$ -- 40
 warning$ -- 3
-while$ -- 11
-width$ -- 6
-write$ -- 57
+while$ -- 13
+width$ -- 7
+write$ -- 72
 (There were 3 warnings)

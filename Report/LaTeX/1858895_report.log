@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.27)  27 JUN 2021 14:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.27)  30 JUN 2021 23:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX/1858895_report.tex"
-(/home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX/1858895_report.tex
+**"/home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/1858895_report.tex"
+(/home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/1858895_report.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14> (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2019/12/20 v1.4l Standard LaTeX document class
@@ -296,17 +296,17 @@ LaTeX Info: Redefining \fullref on input line 2605.
 Package cleveref Info: `amsthm' support loaded on input line 3026.
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 34.
- (/home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX/natbib.sty
+ (/home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/natbib.sty
 Package: natbib 1999/05/28 7.0 (PWD)
 \bibhang=\skip63
 \bibsep=\skip64
 LaTeX Info: Redefining \cite on input line 508.
 \c@NAT@ctr=\count276
-) (/home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX/natbib-add.tex) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+) (/home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/natbib-add.tex) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count277
 \l__pdf_internal_box=\box49
-) (/home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX/1858895_report.aux)
+) (/home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/1858895_report.aux)
 \openout1 = `1858895_report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
@@ -369,12 +369,12 @@ LaTeX Info: Redefining \Ref on input line 520.
 LaTeX Info: Redefining \ref on input line 58.
 LaTeX Info: Redefining \pageref on input line 58.
 LaTeX Info: Redefining \nameref on input line 58.
- (/home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX/1858895_report.out) (/home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX/1858895_report.out)
+ (/home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/1858895_report.out) (/home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/1858895_report.out)
 \@outlinefile=\write3
 \openout3 = `1858895_report.out'.
 
 LaTeX Info: Redefining \Ref on input line 58.
-<images/wits.jpg, id=84, 281.05pt x 521.95pt>
+<images/wits.jpg, id=88, 281.05pt x 521.95pt>
 File: images/wits.jpg Graphic file (type jpg)
 <use images/wits.jpg>
 Package pdftex.def Info: images/wits.jpg  used on input line 82.
@@ -382,11 +382,11 @@ Package pdftex.def Info: images/wits.jpg  used on input line 82.
  [0
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX/images/wits.jpg>]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/images/wits.jpg>]
 LaTeX Font Info:    Trying to load font information for TS1+bch on input line 96.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1bch.fd
 File: ts1bch.fd 2004/10/18 font definitions for TS1/bch.
-) [1] (/home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX/1858895_report.toc
+) [1] (/home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/1858895_report.toc
 LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -403,7 +403,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ]
 Chapter 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--121
+Underfull \hbox (badness 10000) in paragraph at lines 115--120
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--135
 
  []
 
@@ -411,75 +416,73 @@ Underfull \hbox (badness 10000) in paragraph at lines 116--121
 
 ]
 Chapter 2.
-
-Underfull \hbox (badness 10000) in paragraph at lines 134--137
-
- []
-
-[2
-
-]
-Chapter 3.
-<images/Methodology.png, id=139, 474.77374pt x 1056.94875pt>
+<images/Methodology.png, id=140, 554.07pt x 996.72375pt>
 File: images/Methodology.png Graphic file (type png)
 <use images/Methodology.png>
-Package pdftex.def Info: images/Methodology.png  used on input line 149.
-(pdftex.def)             Requested size: 312.98941pt x 426.78781pt.
-[3
+Package pdftex.def Info: images/Methodology.png  used on input line 152.
+(pdftex.def)             Requested size: 312.9825pt x 426.78822pt.
+[2
 
- </home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX/images/Methodology.png>]
-<images/Non-maximum Suppression.png, id=147, 708.6475pt x 323.2075pt>
-File: images/Non-maximum Suppression.png Graphic file (type png)
-<use images/Non-maximum Suppression.png>
-Package pdftex.def Info: images/Non-maximum Suppression.png  used on input line 189.
-(pdftex.def)             Requested size: 284.52756pt x 129.77388pt.
-
-Underfull \vbox (badness 6893) has occurred while \output is active []
-
- [4]
-<images/result.png, id=154, 488.82625pt x 222.8325pt>
-File: images/result.png Graphic file (type png)
-<use images/result.png>
-Package pdftex.def Info: images/result.png  used on input line 204.
-(pdftex.def)             Requested size: 284.52756pt x 129.70535pt.
- [5 </home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX/images/Non-maximum Suppression.png> </home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX/images/result.png>]
-Chapter 4.
-
-Underfull \hbox (badness 10000) in paragraph at lines 213--216
+ </home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/images/Methodology.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 168--174
 
  []
 
-[6
+[3]
+<images/Non-maximum Suppression.png, id=156, 708.6475pt x 323.2075pt>
+File: images/Non-maximum Suppression.png Graphic file (type png)
+<use images/Non-maximum Suppression.png>
+Package pdftex.def Info: images/Non-maximum Suppression.png  used on input line 213.
+(pdftex.def)             Requested size: 284.52756pt x 129.77388pt.
+<images/result.png, id=157, 488.82625pt x 222.8325pt>
+File: images/result.png Graphic file (type png)
+<use images/result.png>
+Package pdftex.def Info: images/result.png  used on input line 226.
+(pdftex.def)             Requested size: 284.52756pt x 129.70535pt.
 
-]
-Chapter 5.
-(/home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX/1858895_report.bbl [7
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[4 </home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/images/Non-maximum Suppression.png>]
+<images/Reflective surface.png, id=164, 738.76pt x 410.53375pt>
+File: images/Reflective surface.png Graphic file (type png)
+<use images/Reflective surface.png>
+Package pdftex.def Info: images/Reflective surface.png  used on input line 245.
+(pdftex.def)             Requested size: 227.62204pt x 126.48738pt.
+ [5 </home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/images/result.png> </home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/images/Reflective surface.png>]
+Chapter 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 254--257
+
+ []
+
+(/home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/1858895_report.bbl [6
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 232.
- [8
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 273.
+ [7
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 232.
- (/home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX/1858895_report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 232.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 232.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 273.
+ (/home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/1858895_report.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 273.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 273.
 Package rerunfilecheck Info: File `1858895_report.out' has not changed.
-(rerunfilecheck)             Checksum: B71F84DDE91356295965C40D6F98354F;1198.
+(rerunfilecheck)             Checksum: 9C36BF99F917FA49EA4449AB0AAA9C66;1260.
  ) 
 Here is how much of TeX's memory you used:
- 9149 strings out of 481239
- 148678 string characters out of 5920377
- 420224 words of memory out of 5000000
- 24197 multiletter control sequences out of 15000+600000
+ 9158 strings out of 481239
+ 149182 string characters out of 5920377
+ 421224 words of memory out of 5000000
+ 24204 multiletter control sequences out of 15000+600000
  553831 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,6n,31p,957b,374s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,6n,31p,1353b,325s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb>
-Output written on "/home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/version1/Report/LaTeX/1858895_report.pdf" (11 pages, 463302 bytes).
+Output written on "/home/molefe/Learning/Wits/Honours/Playground/Digital Image Processing/Assignments/License Plate Detection/Proof Read/version3/Report/LaTeX/1858895_report.pdf" (10 pages, 620041 bytes).
 PDF statistics:
- 200 PDF objects out of 1000 (max. 8388607)
- 175 compressed objects within 2 object streams
- 39 named destinations out of 1000 (max. 500000)
- 181 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 206 PDF objects out of 1000 (max. 8388607)
+ 180 compressed objects within 2 object streams
+ 40 named destinations out of 1000 (max. 500000)
+ 194 words of extra memory for PDF output out of 10000 (max. 10000000)
 

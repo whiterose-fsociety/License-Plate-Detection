@@ -1,12 +1,16 @@
 * [1. Pre-Processing](#chapter2)
     * [Data Preparation](#section_2_1)
-    * [Image Filtering and Detection Pre-Processing](#section_2_2)
-    * [Poor Illumination](#section_2_3)
-    * [Environmental Handling: Rain and Fog](#section_2_3)
+    * [Sample Histogram Equalization](#section_2_2)
+    * [Random Image Sample](#section_2_3)
 * [2. License Plate Localization](#chapter3)
+    * [Choosing A Random Image](#section_3_1)
+    * [Stepwise License Plate Detection](#section_3_2)
+    * [License Plate Detected Image](#section_3_3)
 * [3. Optimal Character Recognition](#chapter4)
-* [4. Conclusion](#chapter5)
-
+    * [Recognize Text of License Plate](#section_4_1)
+* [4. Generalized License Plate Detection](#chapter5)
+    * [Sample Detection](#section_5_1)
+* [5. Conclusion](#chapter6)	
 
 <a id="chapter2" name="chapter2">Chapter 2</a> 
 <a id="section_2_2" name="section_2_2">Section 2.2</a>

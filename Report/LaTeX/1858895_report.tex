@@ -70,9 +70,9 @@
   \large School of Computer Science \& Applied Mathematics\\
   \large University of the Witwatersrand\\[20pt]
   \normalsize
-  Molefe Molefe \\
-  Tieho Ramphore \\
-  1858893 \\[20pt]
+  Molefe Molefe - 1858893\\
+  Tieho Ramphore  - 1908649\\[10pt]
+  
 
   \today
   }
@@ -81,7 +81,7 @@
   \vfill
   \includegraphics[width=1.5cm]{images/wits}
   \vspace{10pt}\\
-  \small{Licene plate dketection and segmentation: Detect the license plate from an image of vehicle and perform segmentation}\\
+  \small{Licene plate detection and segmentation: Detect the license plate from an image of a vehicle and perform segmentation}\\
 \end{center}
 \vfill
 \newpage
@@ -96,7 +96,6 @@ Design approaches that handle images taken in varying environments including but
   \item Illumination Condition
   \item Non-Uniform Illumination
   \item Poor Illumination
-  \item Different Weather Condition (Foggy, Rainy)
 \end{itemize}
 \end{abstract}
 
@@ -127,10 +126,9 @@ The difficulties of automatic license plate recognition(ALPR) we attempt to solv
   \item \textbf{Poor File Resolution}: Plate/Car is too far away
   \item \textbf{Poor Illumination}: The image is too dark or too bright 
   \item \textbf{Lack of Coordination}: The license plates are different for each country or state 
-  \item \textbf{Environemnt}: The image contains foggy or rainy environments
 \end{itemize}
 
-\chapter{Related Work}
+\section{Related Work}
 Papers from different countries face the problem of their algorithms being unable to detect foreign license plates.\ 
 Some failures in recognition are due to different formats of the text written on the number plate or the plate having a different size.\ 
 \citet*{redmon2016look} presented a method that captures the license plate of a vehicle. This paper placed cameras at suitable places and performed image processing techniques such as erosion,thinning and convolution to retrieve a license plate. \\ [4pt]
@@ -141,13 +139,22 @@ Some failures in recognition are due to different formats of the text written on
 They perform number plate localization by combining methods such as thresholding and edge detection to perform prepare the image for hough rectangular transforms.\ 
 We propose a method that uses contours to find the location of the license, instead they perform top-hat trasnformation and skew-detection to retrieve and fix the orientation of the license. 
 The subtask of performing optimal character recognition(OCR) from a detected licesnse plate is performed by applying connected component analysis to segment the characters individually. Finally, they perform template matching for recognizing text using a statistical-based approach.
+
+
+% \chapter{ALPR: Review}
+
+
 \chapter{Methodolgy}
 We propose a novel method that will detect a number plate from an image.
-License plates are relatively longer by width hence we approximated an aspect ratio between 4 and 6 to detect a rectangular object.
+License plates are relatively longer by width hence we approximated an aspect ratio between 2 and 8 to detect a rectangular object.
 
 \begin{center}
   \includegraphics[width=11cm,height=15cm]{images/Methodology.png}
 \end{center}
+
+\section{Dataset Processing}
+The dataset used was sourced from \citet*{KrauseStarkDengFei-Fei_3DRR2013}, this database was created with the intent of standardising the benchmark for ALPR. Any approach used to solve the problem can now be efficiently tested and categorised and the state of the art can be determined. The dataset consists of large number of car images taken in good daylight with annotations regarding where the license plate can be identified and the characters therein. This represents the easiest set the ALPR program can solve for, further sets include a sizeable number of images taken at night with a single directed light, this light may not directly hit the plate and the low visibility may prove more challenging for a program to solve. \par Complicating the problem further there exists a subset of images in which shadows obscure parts of the car, and other images which are not clearly captured. All of these complete the first section of difficulty, which is focused on classifying a license plate for a single car in an image. The next level includes classifying multiple cars in a single image, with the added complexity of cars occluding each other.\par
+We found the dataset to be of sufficient size and complexity to fully generalise our solution.
 
 \section{Pre-Processing}
 \subsection{Image Processing}
@@ -158,15 +165,32 @@ We blur the image using a gaussian blur to prepare it for edge detection.\
 We would prefer that edge detection algorithm do not recognize insignificant image details.\
 
 \subsection{Environemnt Handling}
-// TODO
+\textbf{Histogram Equalization}\\
+Sometimes images would have unequal distributions of light.\ 
+This is often due to other objects casting a shadow on the license plate, or sunlight shining in one particular direction further illuminating that region.\ 
+Hence we would see intensity values favoring a certain region of the plot.\ 
+So, we stretch the intensities by equaling distributing the intensities using a technique called histogram equalization.\ 
+This often makes an image brighter. \\ [3pt]
 
-\subsection{Normalization}
-// TODO 
+\textbf{Gamma Correction}\\
+Gamma correction is synonymous with the power-law transform where intensities must be scaled from the range of [0,255] to [0,1.0].\ 
+This has several desirable properties, such as allowing us to control the parameter of illumination.\ 
+We can further illuminate an image or further darken an image.\ 
+A series of successive morphological operations were applied to find the license plate.\ 
+We seek to find the light regions around the black thresholded images.\ 
+Hence, the flexibility of controlling the gamma parameter can help us tune our hyperparameters that determine the best arguments for determining the license plate.
+
 \section{Number Plate Localization}
+There are two techniques used to find the license plate: namely 
+\begin{itemize}
+  \item Find the license plate by applying morphological operations and finding the contours of the remaining thresholded image
+  \item Find the license plate by finding the edge detection of the image and finding the contours of the remaining image 
+\end{itemize}
 
+Each of these techniques have their respective benefits. 
 \subsection{Morphology}
 
-We performed morphological operations that iteratively prepared the image for object segmentation.  \\[2pt]
+We performed morphological operations that iteratively prepared the image for object segmentation.  \\[3pt]
 \textbf{Black-Hat Morpohology}\\
 We perform a black hat operation to reveal the dark regions on lighter backgrounds.\ 
 This will highlight license plate numbers against the rest of the photo.\
@@ -188,12 +212,10 @@ Non-max suppresion filters objects of interest based on a thresholding criteria.
 \begin{center}
   \includegraphics[width=10cm]{images/Non-maximum Suppression.png}
 \end{center}
-\subsection{Plate Orientation and Sizing}
-// TODO 
 \subsection{Contours}
 Contours are curves joining continuous points that have the same color or intensity. It results in a closed figure that is bounded by the path of edges that have the same intensity.
 Given the edge detected image, we have to find the contours that resemble a rectangular shape that has license plate characteristics.\ 
-A ratio of 2:1 where the width is larger than the height closely approximates the dimensions of a license plate.\ 
+A ratio of 4:1 where the width is larger than the height closely approximates the dimensions of a license plate.\ 
 We find the contours of the license plate candidates to retrieve the final license plate image.\ 
 Contours generated by the OpenCV library randomly arrange their order.\ 
 The contours that closely resemble the license plate are likely among the largest contours.\ 
@@ -205,20 +227,39 @@ What remains is finding the location of the best contour and cropping the image 
     \caption{Taken from the notebook}
   \end{figure}
 \end{center}
-\subsection{Optimal Character Recognition}
- // TODO 
+\subsection{Stepwise License Plate Detection}
+Recent works have stopped at using morphological operations to detect images.\
+Few papers have utilized deep learning to train a model to classify license plates.
+Our approach, which seems to be the first of its kind, attempts to try various hyperparameters that each perform license plate detection.\ 
+The best hyperparameters are the highest approximators of the license plate.
+Initially, we apply morphological pre-processing and find the contours of the image.\ 
+The criterion for finding a license plate is a continuous line that approximates a polygon with 4 sides. 
+We then apply OCR to find the text of the license plate, if this fails we regress and try using different parameters that would most likely yield an approximation to a license plate.
 
-\chapter{Limitations}
-\section{Automatic License Plate Recognition}
+\section{Examples}
+Instances such as the image below, often find too many contours and struggle with images that have reflective surfaces.
+Our adaption of license detection tries to find any contour that matches a rectangular and selecting the rectangular that is highly probable to yield a license plate.
+It is quite often for license detection algorithms to misclassify noise as license plates. A neat trick that is applicable in most applications is to blur the grayscale of the image.
+This allows the morphological operations to focus on finding the most relevant aspects of the image. 
+\begin{center}
+  \includegraphics[width=8cm]{images/Reflective surface.png}
+\end{center}
+
+
+ 
+\chapter{Final Chapter}
+
+\section{Limitations}
+\subsection{Automatic License Plate Recognition}
 Automatic license plate recognition requires preliminary considerations as a prerequisite to detecting a number plate.\ 
 The images need to be under controllable lighting conditions and contain recognizable license plates.\ 
 Advanced ALPR methods utilize dedicated object detectors and state-of-the-art recurrent neural networks.\\ [4pt]
 
 Another challenge is finding a dataset to train a custom ALPR algorithm. Government officials have security concerns regarding the deployment of unauthorized license plates for research purposes. Individuals prefer to keep their license plates hidden from public records. They are afraid that they would be susceptible to kidnapping and instances such as personal harm. 
 
+
+\section{Conclusion}
 ALPR datasets are difficult to curate because images need to be taken under consistent environments.
- 
-\chapter{Conclusion}
 Computer vision is synonymous with surveillance, and as such computer vision algorithms solve security problems.\ 
 Given that a person parks into a parking lot, we would be interested in discovering the time the individual arrived and the time they departed.\
 Cameras are required to record video information that contains cars with license plates.\ 
